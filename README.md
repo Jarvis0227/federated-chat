@@ -8,6 +8,12 @@
 2. 维护者核对资料，并与站长确认 Matrix 接入方式和联调结果。
 3. 审核通过后，维护者更新 `members.json`，并在 Issue 里告知申请人。
 
+## 修改自己的站点资料
+
+请用 `members.json` 中登记的 GitHub 账号提交[「修改我的站点资料」Issue](https://github.com/Jarvis0227/federated-chat/issues/new?template=update.yml)，只填写要更新的字段。维护者用 Issue 作者的 GitHub 用户名匹配当前成员记录，只修改该记录。GitHub 用户名需要更换时，请在 Issue 里说明，由维护者核对归属后更新绑定。
+
+维护者可以审核加入申请和资料改动。核对资料后，通过 PR 更新 `members.json`。开 PR 时关联原 Issue，方便审核者核对申请账号和实际改动。
+
 ## 成员名单
 
 `members.json` 是成员对象数组。名单中的每条记录都包含以下十二个字段，结构定义见 [`members.schema.json`](members.schema.json)。

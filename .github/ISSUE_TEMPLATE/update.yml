@@ -1,0 +1,90 @@
+name: 修改我的站点资料
+description: 使用已登记的 GitHub 账号提交资料更新。
+title: "[资料更新] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请使用成员名单中登记的 GitHub 账号提交。维护者会用 Issue 作者匹配你自己的记录。
+        只填要改的字段，留空表示保留原值。切换为 user 时，维护者会清空转发账号 ID。
+        表单内容会公开。访问令牌和密码请保存在服务端。
+  - type: input
+    id: siteName
+    attributes:
+      label: "站点名称"
+      description: "站点的正式名称。"
+    validations:
+      required: false
+  - type: textarea
+    id: siteDescription
+    attributes:
+      label: "站点介绍"
+      description: "用一两句话介绍站点或聊天室。"
+    validations:
+      required: false
+  - type: input
+    id: siteUrl
+    attributes:
+      label: "站点主页"
+      description: "填写完整网址。"
+    validations:
+      required: false
+  - type: input
+    id: chatName
+    attributes:
+      label: "聊天室名称"
+      description: "例如「听雨茶室」或「清吾长亭」。"
+    validations:
+      required: false
+  - type: input
+    id: chatUrl
+    attributes:
+      label: "公开聊天室"
+      description: "填写完整网址。"
+    validations:
+      required: false
+  - type: input
+    id: siteIconUrl
+    attributes:
+      label: "站点图标"
+      description: "填写可公开访问的图标图片直链。"
+    validations:
+      required: false
+  - type: input
+    id: homeserver
+    attributes:
+      label: "Matrix homeserver"
+      description: "填写服务器名，省略协议和路径。"
+    validations:
+      required: false
+  - type: input
+    id: color
+    attributes:
+      label: "站点颜色"
+      description: "填写可直接用于 CSS color 和 background-color 的颜色值。"
+    validations:
+      required: false
+  - type: input
+    id: matrixUserId
+    attributes:
+      label: "站长 Matrix ID"
+      description: "填写站长本人的完整 Matrix 用户 ID。"
+    validations:
+      required: false
+  - type: dropdown
+    id: matrixAccountType
+    attributes:
+      label: "Matrix 接入方式"
+      description: "user 表示各自使用独立账号，relay 表示共享转发账号。"
+      options:
+        - user
+        - relay
+    validations:
+      required: false
+  - type: input
+    id: matrixRelayUserId
+    attributes:
+      label: "转发账号 Matrix ID"
+      description: "新增或更换转发账号时，填写实际代发消息账号的完整 ID。"
+    validations:
+      required: false
