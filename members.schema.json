@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "互联聊天室成员名单",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "siteName": {
+        "type": "string",
+        "pattern": "\\S"
+      },
+      "siteDescription": {
+        "type": "string",
+        "pattern": "\\S"
+      },
+      "siteUrl": {
+        "type": "string",
+        "format": "uri",
+        "pattern": "^https?://[^\\s/]+"
+      },
+      "chatUrl": {
+        "type": "string",
+        "format": "uri",
+        "pattern": "^https?://[^\\s/]+"
+      },
+      "siteIconUrl": {
+        "type": "string",
+        "format": "uri",
+        "pattern": "^https?://[^\\s/]+"
+      },
+      "homeserver": {
+        "type": "string",
+        "pattern": "^(?:[A-Za-z0-9.-]+|\\[[0-9A-Fa-f:.]+\\])(?::[0-9]+)?$"
+      },
+      "color": {
+        "type": "string",
+        "pattern": "\\S",
+        "description": "可直接用于 CSS color 和 background-color 的颜色值。"
+      },
+      "matrixUserId": {
+        "type": "string",
+        "pattern": "^@[^\\s:]+:[^\\s/?#]+$"
+      },
+      "matrixAccountType": {
+        "enum": [
+          "user",
+          "relay"
+        ]
+      },
+      "matrixRelayUserId": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "siteName",
+      "siteDescription",
+      "siteUrl",
+      "chatUrl",
+      "siteIconUrl",
+      "homeserver",
+      "color",
+      "matrixUserId",
+      "matrixAccountType",
+      "matrixRelayUserId"
+    ],
+    "if": {
+      "properties": {
+        "matrixAccountType": {
+          "const": "relay"
+        }
+      }
+    },
+    "then": {
+      "properties": {
+        "matrixRelayUserId": {
+          "type": "string",
+          "pattern": "^@[^\\s:]+:[^\\s/?#]+$"
+        }
+      }
+    },
+    "else": {
+      "properties": {
+        "matrixRelayUserId": {
+          "const": ""
+        }
+      }
+    }
+  }
+}
