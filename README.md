@@ -10,13 +10,14 @@
 
 ## 成员名单
 
-`members.json` 是成员对象数组。名单中的每条记录都包含以下十一个字段，结构定义见 [`members.schema.json`](members.schema.json)。
+`members.json` 是成员对象数组。名单中的每条记录都包含以下十二个字段，结构定义见 [`members.schema.json`](members.schema.json)。
 
 | 字段 | 填写说明 |
 | --- | --- |
 | `siteName` | 站点正式名称。 |
 | `siteDescription` | 用一两句话介绍站点或聊天室。 |
 | `siteUrl` | 填写完整网址。 |
+| `chatName` | 聊天室自己的名称，例如「听雨茶室」或「清吾长亭」。 |
 | `chatUrl` | 填写完整网址。 |
 | `siteIconUrl` | 填写可公开访问的图标图片直链。 |
 | `homeserver` | 填写服务器名，可带端口，省略协议和路径。 |
@@ -31,6 +32,7 @@
   "siteName": "示例聊天室",
   "siteDescription": "分享技术和生活，欢迎来聊天室串门。",
   "siteUrl": "https://example.org/",
+  "chatName": "示例长亭",
   "chatUrl": "https://example.org/chat/",
   "siteIconUrl": "https://example.org/icon.png",
   "homeserver": "matrix.example.org",

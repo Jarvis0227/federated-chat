@@ -27,6 +27,13 @@ body:
     validations:
       required: true
   - type: input
+    id: chatName
+    attributes:
+      label: 聊天室名称
+      description: 填写聊天室自己的名称，例如「听雨茶室」或「清吾长亭」。
+    validations:
+      required: true
+  - type: input
     id: chatUrl
     attributes:
       label: "公开聊天室"
