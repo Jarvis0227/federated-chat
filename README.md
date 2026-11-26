@@ -10,7 +10,7 @@
 
 ## 成员名单
 
-`members.json` 是成员对象数组。名单中的每条记录都包含以下十个字段，结构定义见 [`members.schema.json`](members.schema.json)。
+`members.json` 是成员对象数组。名单中的每条记录都包含以下十一个字段，结构定义见 [`members.schema.json`](members.schema.json)。
 
 | 字段 | 填写说明 |
 | --- | --- |
@@ -22,6 +22,7 @@
 | `homeserver` | 填写服务器名，可带端口，省略协议和路径。 |
 | `color` | 填写可直接用于 CSS color 和 background-color 的颜色值，例如 #b86b91。 |
 | `matrixUserId` | 填写站长本人的完整 Matrix 用户 ID，格式为 @用户名:服务器名。 |
+| `githubUsername` | 站长本人的 GitHub 用户名，例如 `Jarvis0227`，省略 @ 和网址。 |
 | `matrixAccountType` | user 表示各自使用独立账号，relay 表示共享转发账号。 |
 | `matrixRelayUserId` | 选择 relay 时必填，填写实际代发消息账号的完整 ID。选择 user 时留空。 |
 
@@ -35,6 +36,7 @@
   "homeserver": "matrix.example.org",
   "color": "#b86b91",
   "matrixUserId": "@owner:matrix.example.org",
+  "githubUsername": "example-owner",
   "matrixAccountType": "user",
   "matrixRelayUserId": ""
 }

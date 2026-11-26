@@ -9,7 +9,8 @@
     "color": "oklch(0.70 0.14 250)",
     "matrixUserId": "@1953549196:matrix.rainzt.cn",
     "matrixAccountType": "user",
-    "matrixRelayUserId": ""
+    "matrixRelayUserId": "",
+    "githubUsername": "Jarvis0227"
   },
   {
     "siteName": "Detached",
@@ -21,7 +22,8 @@
     "color": "#f2cb71",
     "matrixUserId": "@maluyao:detached.online",
     "matrixAccountType": "user",
-    "matrixRelayUserId": ""
+    "matrixRelayUserId": "",
+    "githubUsername": "maluyaotop"
   },
   {
     "siteName": "AIOVTUE-雪",
@@ -33,7 +35,8 @@
     "color": "#f4a9c7",
     "matrixUserId": "@aiovtue:matrix.rainzt.cn",
     "matrixAccountType": "relay",
-    "matrixRelayUserId": "@aiprate:matrix.rainzt.cn"
+    "matrixRelayUserId": "@aiprate:matrix.rainzt.cn",
+    "githubUsername": "AIOVTUE"
   },
   {
     "siteName": "冷汐OωO",
@@ -45,7 +48,8 @@
     "color": "#78cec7",
     "matrixUserId": "@lengxiqwq:matrix.lengxiqwq.com",
     "matrixAccountType": "user",
-    "matrixRelayUserId": ""
+    "matrixRelayUserId": "",
+    "githubUsername": "LengxiQwQ"
   },
   {
     "siteName": "Somoe",
@@ -57,7 +61,8 @@
     "color": "#ff9d76",
     "matrixUserId": "@qiumonster:chat.gbk.ink",
     "matrixAccountType": "user",
-    "matrixRelayUserId": ""
+    "matrixRelayUserId": "",
+    "githubUsername": "QiuMonster"
   },
   {
     "siteName": "折腾进行时",
@@ -69,7 +74,8 @@
     "color": "#f2cb71",
     "matrixUserId": "@heyuan:matrix.0dm.cn",
     "matrixAccountType": "user",
-    "matrixRelayUserId": ""
+    "matrixRelayUserId": "",
+    "githubUsername": "hy4962"
   },
   {
     "siteName": "昭鸢笺",
@@ -81,7 +87,8 @@
     "color": "#f2cb71",
     "matrixUserId": "@zhaoyuan:matrix.mibase.top",
     "matrixAccountType": "user",
-    "matrixRelayUserId": ""
+    "matrixRelayUserId": "",
+    "githubUsername": "miro-box"
   },
   {
     "siteName": "清吾",
@@ -90,9 +97,10 @@
     "chatUrl": "https://qingwu.ink/chat",
     "siteIconUrl": "https://www.qingwu.ink/images/avatar.jpg",
     "homeserver": "matrix.rainzt.cn",
-    "color": "hsl(221 11% 55%)",
+    "color": "#c23a55",
     "matrixUserId": "@qingwu:matrix.rainzt.cn",
     "matrixAccountType": "relay",
-    "matrixRelayUserId": "@qingwuzf:matrix.rainzt.cn"
+    "matrixRelayUserId": "@qingwuzf:matrix.rainzt.cn",
+    "githubUsername": "hjphh11"
   }
 ]
