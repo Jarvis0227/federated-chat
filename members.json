@@ -1,1 +1,98 @@
-[]
+[
+  {
+    "siteName": "朝朝听雨",
+    "siteDescription": "记录技术实践、项目进展与日常写作。",
+    "siteUrl": "https://rainzt.cn",
+    "chatUrl": "https://rainzt.cn/chat/",
+    "siteIconUrl": "https://rainzt.cn/zzty.gif",
+    "homeserver": "matrix.rainzt.cn",
+    "color": "oklch(0.70 0.14 250)",
+    "matrixUserId": "@1953549196:matrix.rainzt.cn",
+    "matrixAccountType": "user",
+    "matrixRelayUserId": ""
+  },
+  {
+    "siteName": "Detached",
+    "siteDescription": "独立开发者的技术、工具与生活博客",
+    "siteUrl": "https://detached.online/",
+    "chatUrl": "https://detached.online/chat/",
+    "siteIconUrl": "https://detached.online/icon-512.png",
+    "homeserver": "detached.online",
+    "color": "#f2cb71",
+    "matrixUserId": "@maluyao:detached.online",
+    "matrixAccountType": "user",
+    "matrixRelayUserId": ""
+  },
+  {
+    "siteName": "AIOVTUE-雪",
+    "siteDescription": "雨滴会记录生命中的每一个瞬间",
+    "siteUrl": "https://daily.yybb.us/",
+    "chatUrl": "https://daily.yybb.us/chat/",
+    "siteIconUrl": "https://r2tc.20030327.xyz/file/博客/主题/xGAV3car.webp",
+    "homeserver": "matrix.yybb.us",
+    "color": "#f4a9c7",
+    "matrixUserId": "@aiovtue:matrix.rainzt.cn",
+    "matrixAccountType": "relay",
+    "matrixRelayUserId": "@aiprate:matrix.rainzt.cn"
+  },
+  {
+    "siteName": "冷汐OωO",
+    "siteDescription": "你好谢谢小笼包再见",
+    "siteUrl": "https://lengxiqwq.com/",
+    "chatUrl": "https://lengxiqwq.com/chat/",
+    "siteIconUrl": "https://weavatar.com/avatar/20ac1fc492bcd37c6f1e6435250a00a490403efd468f632c11fcbe87c1c3287b?s=256",
+    "homeserver": "matrix.lengxiqwq.com",
+    "color": "#78cec7",
+    "matrixUserId": "@lengxiqwq:matrix.lengxiqwq.com",
+    "matrixAccountType": "user",
+    "matrixRelayUserId": ""
+  },
+  {
+    "siteName": "Somoe",
+    "siteDescription": "在文字的深海里，拾贝而行",
+    "siteUrl": "https://somoe.xyz/",
+    "chatUrl": "https://somoe.xyz/chat",
+    "siteIconUrl": "https://somoe.xyz/qiumonster.webp",
+    "homeserver": "chat.gbk.ink",
+    "color": "#ff9d76",
+    "matrixUserId": "@qiumonster:chat.gbk.ink",
+    "matrixAccountType": "user",
+    "matrixRelayUserId": ""
+  },
+  {
+    "siteName": "折腾进行时",
+    "siteDescription": "记录一些生活，爱好技术和相关的东西。",
+    "siteUrl": "https://www.9ll.uk/",
+    "chatUrl": "https://www.0dm.cn/chat/",
+    "siteIconUrl": "https://www.9ll.uk/gallery/blog/avatar.avif",
+    "homeserver": "matrix.0dm.cn",
+    "color": "#f2cb71",
+    "matrixUserId": "@heyuan:matrix.0dm.cn",
+    "matrixAccountType": "user",
+    "matrixRelayUserId": ""
+  },
+  {
+    "siteName": "昭鸢笺",
+    "siteDescription": "昭有明朗向远之意，鸢乘风而上，笺以载笔墨见闻",
+    "siteUrl": "https://blog.mibase.top/",
+    "chatUrl": "https://blog.mibase.top/chat/",
+    "siteIconUrl": "https://blog.mibase.top/img/miro.jpg",
+    "homeserver": "matrix.mibase.top",
+    "color": "#f2cb71",
+    "matrixUserId": "@zhaoyuan:matrix.mibase.top",
+    "matrixAccountType": "user",
+    "matrixRelayUserId": ""
+  },
+  {
+    "siteName": "清吾",
+    "siteDescription": "写技术、记生活，一个温馨二次元的小屋。",
+    "siteUrl": "https://qingwu.ink",
+    "chatUrl": "https://qingwu.ink/chat",
+    "siteIconUrl": "https://www.qingwu.ink/images/avatar.jpg",
+    "homeserver": "matrix.rainzt.cn",
+    "color": "hsl(221 11% 55%)",
+    "matrixUserId": "@qingwu:matrix.rainzt.cn",
+    "matrixAccountType": "relay",
+    "matrixRelayUserId": "@qingwuzf:matrix.rainzt.cn"
+  }
+]
