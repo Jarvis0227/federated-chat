@@ -7,13 +7,13 @@
 1. [提交「申请加入互联聊天室」Issue](https://github.com/Jarvis0227/federated-chat/issues/new?template=join.yml)。
 2. 维护者核对资料，并与站长确认 Matrix 接入方式和联调结果。
 3. 维护者确认后，给申请 Issue 加上「审核通过」标签。GitHub Actions 会校验表单并创建一条更新 `members.json` 的 PR。
-4. 维护者核对 PR 后将它合并到 `main`。合并时会自动关闭原 Issue，站点才正式加入。若申请表修改过，核对后移除再重新添加标签。资料修改申请继续按下方流程处理。
+4. 维护者核对 PR 后将它合并到 `main`。合并时会自动关闭原 Issue，站点才正式加入。若申请表修改过，核对后移除再重新添加标签。
 
 ## 修改自己的站点资料
 
 请用 `members.json` 中登记的 GitHub 账号提交[「修改我的站点资料」Issue](https://github.com/Jarvis0227/federated-chat/issues/new?template=update.yml)，只填写要更新的字段。维护者用 Issue 作者的 GitHub 用户名匹配当前成员记录，只修改该记录。GitHub 用户名需要更换时，请在 Issue 里说明，由维护者核对归属后更新绑定。
 
-维护者可以审核加入申请和资料改动。核对资料后，通过 PR 更新 `members.json`。开 PR 时关联原 Issue，方便审核者核对申请账号和实际改动。
+维护者核对资料后，同样给资料更新 Issue 加「审核通过」标签。GitHub Actions 会通过 Issue 作者找到对应成员，只改填写了新值的字段，并创建 PR。未填字段保留原值，切换为 `user` 时清空转发账号。PR 合并后自动关闭原 Issue。GitHub 账号换绑由维护者手动处理。
 
 ## 成员名单
 

@@ -1,4 +1,4 @@
-name: 为已审核的加入申请创建 PR
+name: 为已审核的成员申请创建 PR
 
 on:
   issues:
@@ -10,12 +10,12 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: join-issue-${{ github.event.issue.number }}
+  group: member-issue-${{ github.event.issue.number }}
   cancel-in-progress: false
 
 jobs:
   propose:
-    if: github.event.label.name == '审核通过' && startsWith(github.event.issue.title, '[申请加入]')
+    if: github.event.label.name == '审核通过' && (startsWith(github.event.issue.title, '[申请加入]') || startsWith(github.event.issue.title, '[资料更新]'))
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
