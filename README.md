@@ -6,7 +6,8 @@
 
 1. [提交「申请加入互联聊天室」Issue](https://github.com/Jarvis0227/federated-chat/issues/new?template=join.yml)。
 2. 维护者核对资料，并与站长确认 Matrix 接入方式和联调结果。
-3. 审核通过后，维护者更新 `members.json`，并在 Issue 里告知申请人。
+3. 维护者确认后，给申请 Issue 加上「审核通过」标签。GitHub Actions 会校验表单并创建一条更新 `members.json` 的 PR。
+4. 维护者核对 PR 后将它合并到 `main`。合并时会自动关闭原 Issue，站点才正式加入。若申请表修改过，核对后移除再重新添加标签。资料修改申请继续按下方流程处理。
 
 ## 修改自己的站点资料
 
