@@ -110,5 +110,19 @@
     "matrixAccountType": "relay",
     "matrixRelayUserId": "@qingwuzf:matrix.rainzt.cn",
     "githubUsername": "hjphh11"
+  },
+  {
+    "siteName": "里世界",
+    "siteDescription": "Welcome To The World Of Lee",
+    "siteUrl": "https://leenet.xyz",
+    "chatName": "互联聊天室",
+    "chatUrl": "https://leenet.xyz/chat",
+    "siteIconUrl": "https://leenet.xyz/avatar.png",
+    "homeserver": "matrix.leenet.xyz",
+    "color": "oklch(65% .13 260/1)",
+    "matrixUserId": "@lee:matrix.leenet.xyz",
+    "githubUsername": "Chzxxuanzheng",
+    "matrixAccountType": "user",
+    "matrixRelayUserId": ""
   }
 ]
